@@ -1,0 +1,32 @@
+/* Estilos para dispositivos pequeños (móviles) */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Estilos para dispositivos medianos (tabletas) */
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+/* Estilos para dispositivos grandes (PCs) */
+@media only screen and (min-width: 1201px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        width: 60%;
+        padding: 30px;
+    }
+}
